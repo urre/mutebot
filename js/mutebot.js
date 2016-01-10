@@ -6,7 +6,6 @@ var mutebot = (function() {
 
     mutebot.filters = function() {
 
-        var activeSystemClass = document.getElementsByClassName('active')[0];
         var searchbox = document.getElementsByClassName('s');
 
         searchbox[0].addEventListener('keyup', function(e) {
@@ -104,7 +103,10 @@ var mutebot = (function() {
 
     document.addEventListener("DOMContentLoaded", function(event) { 
         
+        // Filtering
         mutebot.filters();
+        
+        // Fetch data
         mutebot.getData();
 
     });
