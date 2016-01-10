@@ -1,11 +1,9 @@
 
-html
-{
+html {
     box-sizing: border-box;
 }
 
-*
-{
+* {
     font-family: 'Inconsolata';
     font-size: 1rem;
 
@@ -18,26 +16,22 @@ html
 }
 
 *:before,
-*:after
-{
+*:after {
     box-sizing: inherit;
 }
 
 .cf:before,
-.cf:after
-{
+.cf:after {
     display: table;
 
     content: ' ';
 }
 
-.cf:after
-{
+.cf:after {
     clear: both;
 }
 
-.cf
-{
+.cf {
     *zoom: 1;
 }
 
@@ -48,16 +42,14 @@ h3,
 h4,
 h5,
 h6,
-p
-{
+p {
     font-size: 1rem;
     font-weight: 400;
 
     margin: 0;
 }
 
-a
-{
+a {
     display: inline-block;
 
     text-decoration: none;
@@ -67,22 +59,18 @@ a
     background-repeat: repeat-x;
 }
 
-a:focus
-{
+a:focus {
     outline: 0;
 }
 
-a:hover
-{
+a:hover {
     text-decoration: none;
 
     color: #56c96b;
     background-image: linear-gradient(white 90%, #56c96b 95%);
 }
 
-input,
-fieldset
-{
+input {
     font-family: inherit;
     font-size: 1rem;
 
@@ -93,34 +81,28 @@ fieldset
     appearance: none;
 }
 
-input:focus
-{
+input:focus {
     outline: 0;
 }
 
-
 input[type='number']::-webkit-inner-spin-button,
-input[type='number']::-webkit-outer-spin-button
-{
+input[type='number']::-webkit-outer-spin-button {
     appearance: none;
 }
 
-img
-{
+img {
     display: block;
 
     max-width: 100%;
 }
 
-body
-{
+ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
 }
 
-.header
-{
+.header {
     line-height: 1.5;
 
     margin-top: 2rem;
@@ -129,37 +111,30 @@ body
     text-align: center;
 }
 
-.header img
-{
+.header img {
     width: 100px;
     height: 100px;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
 
-.footer
-{
+.footer {
     margin-top: 5rem;
-    margin-bottom: 2rem;
-}
+    margin-bottom: 2rem; }
 
-.footer p
-{
+.footer p {
     color: #ccc;
 }
 
-.footer .lefter
-{
+.footer .lefter {
     float: left;
 }
 
-.footer .righter
-{
+.footer .righter {
     float: right;
 }
 
-input
-{
+input {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -167,38 +142,32 @@ input
 }
 
 td,
-th
-{
+th {
     padding: .5rem;
 
     border-bottom: 1px solid #f2f2f2;
 }
 
-table
-{
+table {
     table-layout: fixed;
 }
 
-td
-{
+td {
     vertical-align: top;
     word-wrap: break-word;
 }
 
-thead
-{
+thead {
     text-align: left;
 }
 
-table
-{
+table {
     width: 100%;
 
     border: none;
 }
 
-pre
-{
+pre {
     margin: 0;
     padding: .25rem .35rem;
 
@@ -206,10 +175,8 @@ pre
 }
 
 
-@media screen and (max-width: 640px)
-{
-    table
-    {
+@media screen and (max-width: 640px) {
+    table {
         display: block;
         overflow-x: scroll;
 

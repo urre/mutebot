@@ -1,11 +1,13 @@
 # Mutebot
 
+![mutebot-logo](https://cloud.githubusercontent.com/assets/307676/12222803/020d46b2-b7c7-11e5-92a5-0c34bc5922c7.png)
+
 [Mutebot](http://mutebot.info) - a collection of regular expressions for Tweetbot to mute tweets in your timeline and mentions.
 
-Simple website made using just html, css and vanilla JavaScript. No depencencies, no build scrips.
+Simple website made using just html, css and vanilla JavaScript. No depencencies, no build scripts.
 
 ### Submit new filters
-1. CLone repo ``git clone git@github.com:urre/mutebot.git``
+1. Clone repo ``git clone git@github.com:urre/mutebot.git``
 2. Checkout a new local branch ex ``git checkout -b feat/newfilters``
 3. Add filters in ``data/data.json``
 4. Create a [pull request](https://github.com/urre/mutebot/pulls)
