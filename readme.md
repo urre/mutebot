@@ -2,12 +2,12 @@
 
 [Mutebot](https://urre.github.io/mutebot/) - a collection of regular expressions for Tweetbot to mute tweets in your timeline and mentions.
 
-Simple website made using just html, css and vanilla javaScript. No depencencies, no build scrips.
+Simple website made using just html, css and vanilla JavaScript. No depencencies, no build scrips.
 
 ### Submit new filters
-1. Checkout a new local branch
+1. Checkout a new local branch ex ``git checkout -b feat/newfilters``
 2. Add filters in ``data/data.json``
-3. Create a pull request
+3. Create a [pull request](https://github.com/urre/mutebot/pulls)
 
 ### License
 
