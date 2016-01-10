@@ -1,6 +1,6 @@
 # Mutebot
 
-[Mutebot](https://urre.github.io/mutebot/) - a collection of regular expressions for Tweetbot to mute tweets in your timeline and mentions.
+[Mutebot](http://mutebot.info) - a collection of regular expressions for Tweetbot to mute tweets in your timeline and mentions.
 
 Simple website made using just html, css and vanilla JavaScript. No depencencies, no build scrips.
 
@@ -14,7 +14,7 @@ Simple website made using just html, css and vanilla JavaScript. No depencencies
 
 The MIT License (MIT)
 
-Copyright (c) 2016 [Urban Sanden](https://labs.urre.me/)
+Copyright (c) 2016 [Urban Sanden](http://labs.urre.me/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
