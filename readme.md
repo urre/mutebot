@@ -1,6 +1,6 @@
 # Mutebot
 
-[Mutebot](http://mutebot.info) - a collection of regular expressions for Tweetbot to mute tweets in your timeline and mentions.
+[Mutebot](https://urre.github.io/mutebot/) - a collection of regular expressions for Tweetbot to mute tweets in your timeline and mentions.
 
 ## License
 
