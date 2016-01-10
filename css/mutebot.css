@@ -18,16 +18,16 @@ html {
 
 .cf:before,
 .cf:after {
-    content: " ";
-    display: table;
+	content: " ";
+	display: table;
 }
 
 .cf:after {
-    clear: both;
+	clear: both;
 }
 
 .cf {
-    *zoom: 1;
+	*zoom: 1;
 }
 
 body,
@@ -56,9 +56,9 @@ a:focus {
 }
 
 a:hover {
-  text-decoration: none;
-  color: #56C96B;
-  background-image: linear-gradient(white 90%, #56C96B 95%);
+	text-decoration: none;
+	color: #56C96B;
+	background-image: linear-gradient(white 90%, #56C96B 95%);
 }
 
 input,
@@ -140,7 +140,7 @@ td, th {
 }
 
 table{
-    table-layout: fixed;
+	table-layout: fixed;
 }
 
 td {
@@ -166,7 +166,8 @@ pre {
 
 @media screen and (max-width: 640px) {
 	table {
-		overflow-x: auto;
+		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
 		display: block;
 	}
 }
