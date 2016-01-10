@@ -5,9 +5,10 @@
 Simple website made using just html, css and vanilla JavaScript. No depencencies, no build scrips.
 
 ### Submit new filters
-1. Checkout a new local branch ex ``git checkout -b feat/newfilters``
-2. Add filters in ``data/data.json``
-3. Create a [pull request](https://github.com/urre/mutebot/pulls)
+1. CLone repo ``git clone git@github.com:urre/mutebot.git``
+2. Checkout a new local branch ex ``git checkout -b feat/newfilters``
+3. Add filters in ``data/data.json``
+4. Create a [pull request](https://github.com/urre/mutebot/pulls)
 
 ### License
 
