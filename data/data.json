@@ -1,0 +1,236 @@
+{
+	"mutebots": [
+	{
+		"id": 1,
+		"title": "Celebrities",
+		"description": " Filter all references to the word Bieber.",
+		"regex": "\b(?i:B.*ber)\b",
+		"authorurl": "https://github.com/justin",
+		"url": "https://gist.github.com/jimmynotjim/3144371#hashtag-abuse"
+	},
+	{
+		"id": 2,
+		"title": "Spam",
+		"description": "Tweets consisting solely of @usernames",
+		"regex": "^(@\\w *)+$",
+		"authorurl": "http://twitter.com/jordanekay",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 3,
+		"title": "Annoyances",
+		"description": "#sentencesashashtags",
+		"regex": "#[A-Za-z]{15,}",
+		"authorurl": "http://twitter.com/jordanekay",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 4,
+		"title": "Annoyances",
+		"description": "hashtag-based chatroom crap.",
+		"regex": "\b#[A-Za-z0-9]+chat\b",
+		"authorurl": "http://twitter.com/jordanekay",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 5,
+		"title": "Annoyances",
+		"description": "tweets with three or more hashtags in a row",
+		"regex": "(#[A-Za-z0-9]+[ ]*){3,}",
+		"authorurl": "http://twitter.com/inkedmn",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 6,
+		"title": "Annoyances",
+		"description": "Two or more hashtags in a tweet, anywhere",
+		"regex": "#(.+)#",
+		"authorurl": "http://twitter.com/apike",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 7,
+		"title": "Annoyances",
+		"description": "Tweets consisting solely of @usernames and #hashtags, separated by whitespace, with no substantive content.",
+		"regex": "^((#|@)\\S+\\s*)+$",
+		"authorurl": "http://twitter.com/jflavin",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 8,
+		"title": "Annoyances",
+		"description": "Tweets with four or more @usernames in a row (you have friends, we get it)",
+		"regex": "(@\\w+,? ){4,}",
+		"authorurl": "http://twitter.com/jordanekay",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 9,
+		"title": "Annoyances",
+		"description": "Tweets censored for no f**king reason",
+		"regex": "\b\\w+\\*+\\w\b",
+		"authorurl": "http://twitter.com/jordanekay",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 10,
+		"title": "Annoyances",
+		"description": "I checked in at...",
+		"regex": "(?i)checked.*in",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 11,
+		"title": "Annoyances",
+		"description": "Tweets with 3 or more line breaks",
+		"regex": "\\n{3,}",
+		"authorurl": "http://twitter.com/justin",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 12,
+		"title": "Annoyances",
+		"description": "Out of context public replies.",
+		"regex": "^\\.\\s?@",
+		"authorurl": "http://twitter.com/grahamwetzler",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 13,
+		"title": "Annoyances",
+		"description": "Follow me, watch me, follow back, watch me please, follow me please etc",
+		"regex": "(?i)please.*(\\bwatch\b|\\bfollow\b)|(\\bwatch\\b|\\bfollow\\b).*(me|please|back)",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 14,
+		"title": "Annoyances",
+		"description": "TWEETS IN ALL CAPS",
+		"regex": "^[A-Z\\s\\p{P}]*$",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 15,
+		"title": "SXSW",
+		"description": "Tweets containing 'SXSW' and 'panel' (case insensitive)",
+		"regex": "(?ism)^(?=.*?\\bSXSW\\b)(?=.*?\\bpanel\\b).*$",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 16,
+		"title": "Persistent",
+		"description": "Timezone RT",
+		"regex": "(?i)(timezone|time.*zone).*(retweet|rt)",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 16,
+		"title": "Persistent",
+		"description": "In case you missed it…",
+		"regex": "(?i)(in.*case|if).*you.*missed.*it",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 17,
+		"title": "Persistent",
+		"description": "mute tweets that begin with @, 'replies'",
+		"regex": "^@",
+		"authorurl": "http://twitter.com/khaled",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 18,
+		"title": "Ego Stroking",
+		"description": "I've got xxx followers on @dribbble/Twitter",
+		"regex": "(?i)followers.*on.*(dribbble|twitter)",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 25,
+		"title": "Ego Stroking",
+		"description": " I @dribbbled earlier/last night",
+		"regex": "(?i)dribbb?le.*(last.*night|earlier)|(last.*night|earlier).*dribbb?le",
+		"authorurl": "https://github.com/jonohunt",
+		"url": "https://github.com/jonohunt/Mute-filters-for-Tweetbot/blob/master/Mute%20Filters%20for%20Tweetbot.md"
+	},
+	{
+		"id": 19,
+		"title": "Stating the obvious",
+		"description": "Look, I changed my avatar",
+		"regex": "(?i)((new|change).*avatar)|(avatar.*(new|change))",
+		"authorurl": "http://twitter.com/jonohunt",
+		"url": "https://github.com/justin/SilencedBots/blob/master/RegEx-Filters.md"
+	},
+	{
+		"id": 20,
+		"title": "Foursquare",
+		"description": "Foursquare app location updates",
+		"regex": "w/ @[^@]+ http://[^ ]+$",
+		"authorurl": "https://github.com/jimmynotjim",
+		"url": "https://gist.github.com/jimmynotjim/3144371"
+	},
+	{
+		"id": 21,
+		"title": "Foursquare",
+		"description": "Foursquare app location updates",
+		"regex": "w/ [0-9]+ others http://[^ ]+$",
+		"authorurl": "https://github.com/jimmynotjim",
+		"url": "https://gist.github.com/jimmynotjim/3144371"
+	},
+	{
+		"id": 22,
+		"title": "Hashtag abuse",
+		"description": "Long hashtags (15+ characters)",
+		"regex": "#[^ ]{15}",
+		"authorurl": "https://github.com/jimmynotjim",
+		"url": "https://gist.github.com/jimmynotjim/3144371"
+	},
+	{
+		"id": 23,
+		"title": "Hashtag abuse",
+		"description": "CamelCase hashtags (3+ Words)",
+		"regex": "#[^a-z ]+[^A-Z ]+[^a-z ]+[^A-Z ]+[^a-z ]+[^ ]*",
+		"authorurl": "https://github.com/jimmynotjim",
+		"url": "https://gist.github.com/jimmynotjim/3144371"
+	},
+	{
+		"id": 23,
+		"title": "Painful to read",
+		"description": "Retweet chains (2+ RTs)",
+		"regex": "RT[^RT]+RT",
+		"authorurl": "https://github.com/jimmynotjim",
+		"url": "https://gist.github.com/jimmynotjim/3144371"
+	},
+	{
+		"id": 24,
+		"title": "Statuses",
+		"description": "Mutes tweets starting with the text “Current status”.",
+		"regex": "^(C|c)urrent status",
+		"authorurl": "https://twitter.com/dwlz",
+		"url": "http://dlo.me/archives/2012/11/26/favorite-mute-filters/"
+	},
+	{
+		"id": 25,
+		"title": "Politics",
+		"description": "US Elections",
+		"regex": "(?i)(politic|republican|election|debate|presidential|democrat|clinton|hillary|trump\\bgop\\b|\\bama\\b",
+		"authorurl": "https://github.com/jonohunt",
+		"url": "https://github.com/jonohunt/Mute-filters-for-Tweetbot/blob/master/Mute%20Filters%20for%20Tweetbot.md"
+	},
+	{
+		"id": 26,
+		"title": "Sports",
+		"description": "Football",
+		"regex": "(?i)(football|soccer|fifa|eufa|footy|goal|free kick|penalty|offside|you blind ref|manchester united|united|man utd|mufc|man city|mcfc|real madrid|fergie|giggs|rooney)",
+		"authorurl": "https://gist.github.com/samuelcotterall",
+		"url": "https://gist.github.com/samuelcotterall/5093629"
+	}
+	]
+}
