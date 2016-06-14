@@ -170,7 +170,7 @@ table {
 pre {
     margin: 0;
     padding: .25rem .35rem;
-
+    white-space: pre-line;
     background-color: #f6f6f6;
 }
 
