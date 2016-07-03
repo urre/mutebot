@@ -231,6 +231,14 @@
 		"regex": "(?i)(football|soccer|fifa|eufa|footy|goal|free kick|penalty|offside|you blind ref|manchester united|united|man utd|mufc|man city|mcfc|real madrid|fergie|giggs|rooney)",
 		"authorurl": "https://gist.github.com/samuelcotterall",
 		"url": "https://gist.github.com/samuelcotterall/5093629"
+	},
+	{
+		"id": 27,
+		"title": "Politics",
+		"description": "Almedalen",
+		"regex": "(?i)almedalen|almedalen16|almedalen2016|mingla|svpol",
+		"authorurl": "https://twitter.com/urre",
+		"url": "https://twitter.com/urre"
 	}
 	]
 }
