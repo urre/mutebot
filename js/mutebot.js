@@ -79,8 +79,10 @@ var mutebot = (function() {
             var linkText = document.createTextNode('Link');
             a.href = text;
             a.setAttribute("target", "_blank");
-            a.appendChild(linkText);
-            column.appendChild(a);
+            if(text !== '') {
+                a.appendChild(linkText);
+                column.appendChild(a);
+            }
         } else if(format === 'authorurl') {
             var nick = text.substr(text.lastIndexOf('/') + 1);
             var a = document.createElement('a');
